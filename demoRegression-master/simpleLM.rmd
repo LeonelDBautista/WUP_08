@@ -66,3 +66,10 @@ summary.lm(simp4)
 ```  
 
 The prediction of overall length based on chest dimensions has a residual standard error of: 4.939 and an adjusted r-squared value of: 0.7869.   
+
+```{r}
+simp5 <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(simp5)
+summary.lm(simp5)
+```
