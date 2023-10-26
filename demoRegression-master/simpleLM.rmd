@@ -75,3 +75,14 @@ summary.lm(simp5)
 ```
 
 The prediction of overall length based on weight of the bear has a residual standard error of: 5.432 and an adjusted r-squared value of: 0.7423.   
+
+## Conclusions & Numerical Ranking   
+
+The ranked variables, from best to worst, based on residual standard error(RSE) and adjusted r-squared(ARS) value as predictors of overall length of a bear are:   
+  
+  1. Head Length: RSE: 4.325 ARS: 0.8434   
+  2. Chest Measurement: RSE: 4.939 ARS: 0.7869   
+  3. Neck Measurement: RSE: 5.376 ARS: 0.7476   
+  4. Weight: RSE: 5.432 ARS: 0.7423   
+  5. Head Width: RSE: 7.32 ARS: 0.5321   
+  6. Age: RSE: 7.511 ARS: 0.5073   
