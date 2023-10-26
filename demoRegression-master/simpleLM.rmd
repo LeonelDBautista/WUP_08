@@ -86,3 +86,5 @@ The ranked variables, from best to worst, based on residual standard error(RSE) 
   4. Weight: RSE: 5.432 ARS: 0.7423   
   5. Head Width: RSE: 7.32 ARS: 0.5321   
   6. Age: RSE: 7.511 ARS: 0.5073   
+
+The ranking/trend is suggested by observing that as the variables are ranked, the adjusted r-squared value decreases, and correspondingly, the residual standard error increases. Among these variables, head length emerges as the most reliable predictor of the bear's overall length, while age proves to be the least effective predictor.   
