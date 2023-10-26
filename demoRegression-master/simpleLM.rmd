@@ -37,3 +37,7 @@ plot(LENGTH~AGE,data=bears)
 abline(simp1)
 summary.lm(simp1)
 ```  
+
+The prediction of overall length based on age of the bear has a residual standard error of: 7.511 and an adjusted r-squared value of: 0.5073.   
+
+
