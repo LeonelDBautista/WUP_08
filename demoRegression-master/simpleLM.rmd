@@ -73,3 +73,5 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(simp5)
 summary.lm(simp5)
 ```
+
+The prediction of overall length based on weight of the bear has a residual standard error of: 5.432 and an adjusted r-squared value of: 0.7423.   
