@@ -49,3 +49,10 @@ summary.lm(simp2)
 
 The prediction of overall length based on head length dimensions has a residual standard error of: 4.235 and an adjusted r-squared value of: 0.8434.   
 
+```{r}
+simp3 <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(simp3)
+summary.lm(simp3)
+```   
+
